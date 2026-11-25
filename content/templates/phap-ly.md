@@ -3,7 +3,7 @@ title:
 description:
 tags: [phap-ly]
 trang-thai: 🌱 mầm
-cap-nhat: YYYY-MM-DD
+cap-nhat: {{date}}
 ---
 
 > [!warning] Thông tin tham khảo

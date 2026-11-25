@@ -1,0 +1,9 @@
+{
+  "types": {
+    "title": "text",
+    "description": "text",
+    "tags": "tags",
+    "trang-thai": "text",
+    "cap-nhat": "date"
+  }
+}

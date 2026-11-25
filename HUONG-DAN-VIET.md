@@ -58,6 +58,14 @@ Văn phong học thuật tiếng Việt chuẩn mực — chính xác, khách qu
 - Thông tin văn bản: số hiệu, cơ quan ban hành, ngày ban hành, ngày hiệu lực, **tình trạng hiệu lực**, văn bản thay thế/bị thay thế, link văn bản gốc.
 - Sau đó: "Điều này có nghĩa gì với người làm thực tế" — viết theo giọng trải nghiệm.
 
+## Liên kết nội bộ (wikilink)
+
+- Lần đầu nhắc tới một khái niệm đã có bài riêng trên site, gắn wikilink tới bài đó: `[[compensation-la-gi|bù trừ huỳnh quang]]`. Chỉ gắn ở lần xuất hiện đầu, không gắn lặp lại.
+- Liên kết tới trang chủ đề (`index.md`) phải ghi đủ đường dẫn: `[[kien-thuc/flow-cytometry/index|Flow cytometry]]`.
+- Mỗi bài mới phải được liệt kê trong trang `index.md` của chủ đề chứa nó, để bài không đứng riêng trên đồ thị kiến thức.
+- Không để liên kết tới bài chưa tồn tại trong bài sắp xuất bản.
+- Xem thêm `HUONG-DAN-OBSIDIAN.md`.
+
 ## Thuật ngữ
 
 - Giữ thuật ngữ chuyên môn tiếng Anh (gating, compensation, IQC…); lần đầu xuất hiện trong bài kèm giải thích tiếng Việt.

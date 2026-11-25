@@ -1,0 +1,12 @@
+{
+  "name": "dzamlab",
+  "compatibility_date": "2026-11-01",
+  "build": {
+    "command": "npx quartz plugin install && npx quartz build"
+  },
+  "assets": {
+    "directory": "./public",
+    "not_found_handling": "404-page",
+    "html_handling": "auto-trailing-slash"
+  }
+}

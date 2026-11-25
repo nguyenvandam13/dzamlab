@@ -119,6 +119,10 @@ plugins:
     enabled: true
   - source: "@quartz-community/explorer"
     enabled: true
+    options:
+      # Mục có tên file/thư mục bắt đầu bằng số (vd. 1-nen-tang…, 2-…) xếp theo số đó;
+      # các mục khác xếp theo tiêu đề. Dùng để giữ đúng thứ tự đọc của các gói kiến thức.
+      sortFn: "(a, b) => { if (a.isFolder !== b.isFolder) return a.isFolder ? -1 : 1; const d = /^\\d/; if (d.test(a.slugSegment) && d.test(b.slugSegment)) return a.slugSegment.localeCompare(b.slugSegment, undefined, { numeric: true }); return a.displayName.localeCompare(b.displayName, undefined, { numeric: true, sensitivity: 'base' }); }"
     layout:
       position: left
       priority: 50

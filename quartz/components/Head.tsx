@@ -90,6 +90,8 @@ export default (() => {
         )}
 
         <link rel="icon" href={iconPath} />
+        {/* Gói kiến thức tương tác: tải trang đầy đủ khi vào gói (xem quartz/static/goi-kien-thuc.js) */}
+        <script src={joinSegments(baseDir, "static/goi-kien-thuc.js")} data-persist="true" />
         <meta name="description" content={description} />
         <meta name="generator" content="Quartz" />
 

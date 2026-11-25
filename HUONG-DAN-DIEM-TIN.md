@@ -1,48 +1,59 @@
 # Hướng dẫn Điểm tin hằng ngày
 
-Điểm tin do Claude tự tổng hợp và **tự xuất bản** mỗi sáng (ngày làm việc). Anh Dam là người đọc.
+Điểm tin lấy từ bản tin hằng ngày mà anh Dam đã có sẵn trên máy (thư mục `E:\F. A.I\A. Daily digest`, tệp `daily-digest-YYYY-MM-DD.html`, do tác vụ hẹn giờ trên máy tạo mỗi sáng). Không tự viết tin mới cho Điểm tin: chỉ chuyển bản tin đã có sang trang web.
 
 ## Phạm vi chủ đề
 
-1. Thiết bị chẩn đoán in vitro (IVD) & ngành xét nghiệm — thế giới và Việt Nam
-2. Chính sách, văn bản pháp luật y tế Việt Nam (đặc biệt trang thiết bị y tế)
-3. Công nghệ phòng xét nghiệm, tự động hoá, flow cytometry, chất lượng (QC/QA)
-4. AI trong y khoa và xét nghiệm
+Sáu nhóm, theo đúng bản tin gốc:
+
+1. Công nghệ & AI
+2. Tài chính & thị trường
+3. Y sinh học
+4. Thế giới
+5. Khoa học cơ bản
+6. Ứng dụng phòng xét nghiệm
+
+Mục "Kiến thức tài chính doanh nghiệp" trong bản tin là giáo trình, không phải tin, nên không đưa vào Điểm tin.
 
 ## Quy tắc cứng
 
-- Mỗi tin **bắt buộc có link nguồn gốc**. Không tìm được nguồn tin cậy → bỏ tin.
-- Ưu tiên nguồn gốc: cơ quan nhà nước (Bộ Y tế, Cổng thông tin Chính phủ, FDA, EMA…), hãng, tạp chí chuyên ngành, báo chính thống.
-- **Tóm tắt bằng lời mình**, 2–4 câu mỗi tin. Không chép nguyên văn.
-- Văn bản pháp luật mới: **chỉ báo tin + link**, không diễn giải nội dung pháp lý.
-- Chỉ đưa tin trong vòng ~48 giờ gần nhất. Không có tin đáng đưa ở một mục → ghi "Không có tin đáng chú ý".
-- 5–10 tin mỗi ngày, xếp theo mức độ quan trọng.
+- Mỗi tin **bắt buộc có link nguồn gốc**. Tin không có link thì bỏ.
+- Chỉ đưa phần **tiếng Việt** của tin, kèm tên báo/tạp chí, tác giả, mức độ (tin ngắn, phân tích, chuyên sâu) và các ô số liệu.
+- Không đưa tab "Báo cáo đánh giá", đánh giá sao, ghi chú cá nhân, tệp feedback.
+
+## Cách chuyển
+
+```bash
+python tools/diem-tin/convert.py "E:/F. A.I/A. Daily digest" --date YYYY-MM-DD
+```
+
+Bỏ `--date` để chuyển mọi bản chưa có trên web. Tệp đã có sẽ không bị ghi đè, trừ khi thêm `--force`.
+
+## Quy trình đăng
+
+Tạo nhánh `diem-tin/YYYY-MM-DD`, chạy lệnh trên, kiểm tra `npx quartz build`, rồi mở Pull Request để anh Dam duyệt. Không push thẳng lên `main`.
 
 ## Định dạng file
 
-Đường dẫn: `content/diem-tin/YYYY/YYYY-MM-DD.md`
+Đường dẫn: `content/diem-tin/YYYY/YYYY-MM-DD.md`, do `convert.py` tạo:
 
 ```markdown
 ---
 title: Điểm tin DD/MM/YYYY
-description: Tóm tắt 1 câu các tin chính trong ngày
+description: "12 tin: Công nghệ & AI, tài chính & thị trường, ..."
 tags: [diem-tin]
+date: YYYY-MM-DD
 ---
 
 > [!info] Điểm tin do AI tổng hợp tự động. Vui lòng kiểm tra nguồn gốc trước khi sử dụng.
 
-## Tiêu điểm
-Một tin quan trọng nhất, 3–4 câu.
+## Công nghệ & AI
 
-## IVD & xét nghiệm
-- **Tiêu đề ngắn** — tóm tắt. ([Nguồn](link))
+### [Tiêu đề gốc của tin](link nguồn)
 
-## Chính sách & pháp lý
-...
+*Tên báo · Tác giả · Phân tích*
 
-## Công nghệ & chất lượng
-...
+Đoạn tóm tắt tiếng Việt.
 
-## AI trong y khoa
-...
+- **Số liệu**: ý nghĩa
 ```

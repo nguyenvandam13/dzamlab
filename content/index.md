@@ -1,9 +1,9 @@
 ---
 title: DzamLab
-description: Ghi chép kiến thức xét nghiệm, flow cytometry, pháp lý trang thiết bị y tế — viết theo kiểu người đi trước kể lại.
+description: Ghi chép kiến thức xét nghiệm, flow cytometry, pháp lý trang thiết bị y tế .
 ---
 
-Chào bạn. Đây là nơi lưu lại những gì tôi học và làm trong nghề xét nghiệm: từ nguyên lý máy móc, kỹ thuật phân tích, đến các quy định pháp lý mà người làm thực tế cần biết.
+DzamLab là nơi hệ thống hoá kiến thức trong lĩnh vực xét nghiệm y học: từ nguyên lý máy móc, kỹ thuật phân tích, đến các quy định pháp lý liên quan đến thực hành.
 
 Mỗi ghi chú có một trạng thái: 🌱 **mầm** (mới ghi), 🌿 **đang viết**, 🌳 **hoàn thiện**. Bài sẽ được bổ sung dần theo thời gian.
 
@@ -16,4 +16,4 @@ Mỗi ghi chú có một trạng thái: 🌱 **mầm** (mới ghi), 🌿 **đang
 
 ## Mới cập nhật
 
-- [[kien-thuc/flow-cytometry/compensation-la-gi|Compensation trong flow cytometry: vì sao quần thể bị "kéo xiên"?]]
+- [[kien-thuc/flow-cytometry/compensation-la-gi|Bù trừ huỳnh quang (compensation) trong flow cytometry]]

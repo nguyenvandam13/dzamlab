@@ -9,61 +9,48 @@ Mọi bài viết trên dzamlab.org (trừ Điểm tin) đều theo hướng d�
 3. Anh Dam duyệt, góp ý → Claude sửa.
 4. Anh Dam bấm **Merge** → bài tự xuất bản. Không bài nào (ngoài Điểm tin) được đăng mà chưa Merge.
 
-## Giọng văn: "người đi trước kể lại"
+## Giọng văn: khoa học, trang trọng, dễ tiếp cận
 
-Hình mẫu tham khảo: blog của GS. Nguyễn Văn Tuấn (nguyenvantuan830970966.wordpress.com). **Học cách viết, không chép câu chữ.**
+Văn phong học thuật tiếng Việt chuẩn mực — chính xác, khách quan, có dẫn chứng — nhưng vẫn **đi từ vấn đề thực tế** để người làm nghề dễ tiếp cận. (Tham khảo cách tổ chức lập luận của GS. Nguyễn Văn Tuấn: đặt vấn đề cụ thể, so sánh số liệu, kết luận thành nguyên tắc; nhưng **giọng văn trang trọng hơn**, không dùng khẩu ngữ.)
 
-### Mở bài
-- Mở bằng **một cảnh cụ thể** hoặc **một câu hỏi** người làm nghề thật sự gặp — không mở bằng định nghĩa.
-- Từ cảnh nhỏ rồi mới mở rộng ra vấn đề chung.
+### Đặt vấn đề
+- Mở bài bằng **một hiện tượng/vấn đề quan sát được trong thực hành**, trình bày khách quan, sau đó nêu rõ câu hỏi bài viết sẽ trả lời.
+- Không mở bằng định nghĩa sách giáo khoa; không mở bằng giai thoại.
 
-### Nhịp văn
-- Đoạn ngắn, thường 1–3 câu. Mỗi đoạn một bước lập luận.
-- Xen kẽ đoạn phân tích dài hơn với **câu ngắn, dứt khoát** để nhấn ý ("Không có bí quyết gì cả.").
-- Dùng dấu "…" thỉnh thoảng để tạo nhịp suy nghĩ, không lạm dụng.
+### Ngôn ngữ
+- Văn phong trang trọng, khách quan. Không dùng khẩu ngữ, từ địa phương, câu cảm thán, emoji, dấu "…".
+- Ngôi trình bày: **khách quan/phi ngôi** ("cần lưu ý rằng…", "kết quả cho thấy…"); khi cần, dùng "chúng ta". Không xưng "tôi", không gọi người đọc là "bạn".
+- Thuật ngữ: dùng thuật ngữ tiếng Việt chuẩn (Hán–Việt) kèm thuật ngữ tiếng Anh trong ngoặc ở lần xuất hiện đầu, ví dụ "tràn phổ (spillover)". Sau đó dùng nhất quán.
+- Câu rõ ràng, mỗi đoạn một luận điểm.
 
-### Tiêu đề phụ là câu hỏi
-- Ưu tiên tiêu đề dạng câu hỏi: "Chuyện gì đang xảy ra?", "Tại sao?", "Vậy phải làm sao?", "Hiểu sao cho đúng?".
-- Câu hỏi đánh dấu bước ngoặt lập luận — mỗi phần trả lời đúng câu hỏi vừa đặt ra.
+### Độ chặt chẽ khoa học
+- Định nghĩa khái niệm trước khi dùng. Khi có cơ sở định lượng, trình bày **công thức** (LaTeX) và giải thích từng ký hiệu.
+- Phân biệt rõ **sự kiện đã được chứng minh**, **khuyến cáo/đồng thuận chuyên môn** và **kinh nghiệm thực hành**.
+- Mọi khẳng định quan trọng phải có **trích dẫn** (tác giả, năm) dẫn tới danh mục tài liệu cuối bài.
+- Số liệu minh hoạ phải ghi rõ là minh hoạ.
+- Dùng từ rào đón đúng mức khi bằng chứng chưa chắc chắn.
 
-### Làm cho khái niệm trừu tượng thành hình ảnh
-- Biến con số/khái niệm khó thành **hình ảnh hoặc phép so sánh đời thường** người đọc hình dung được.
-- Đặt số liệu **thành cặp để so sánh** (con số "nghe ấn tượng" vs con số "thực tế"); chỉ ra khoảng cách giữa hai cái.
-- Có số liệu thì giải thích luôn ý nghĩa thực tế của nó.
-
-### Thái độ
-- Điềm đạm, công bằng, có tinh thần phản biện: chỉ ra chỗ hay hiểu lầm, chỗ tài liệu/quảng cáo nói quá.
-- Thừa nhận giới hạn, dùng từ rào đón khi cần ("có vẻ", "theo hiểu biết hiện nay").
-- Được phép hóm hỉnh nhẹ nhàng; không châm biếm cá nhân hay hãng cụ thể.
-
-### Xưng hô
-- "tôi" dùng cho **suy nghĩ, nhận định, lập luận** của người viết ("tôi nghĩ…", "theo tôi…").
-- "bạn" / "các bạn" khi kéo người đọc vào tình huống giả định ("Giả sử bạn đang chạy mẫu…").
+### Phép so sánh
+- Được dùng **một** phép so sánh trực quan cho khái niệm khó, trình bày ngắn gọn, sau đó quay lại ngôn ngữ chuyên môn.
 
 ### Kết bài
-- Kết bằng **"Bài học:"** — một vài thói quen/câu hỏi người đọc mang theo dùng được ngay. Ngắn, dứt khoát.
-
-### Từ ngữ
-- Thuật ngữ chuyên môn dùng từ Hán–Việt chuẩn (biến cố, độ chính xác, độ đúng…); động từ đời thường giữ giản dị.
-- Tên thiết bị, hoá chất, kháng thể, chuẩn quốc tế giữ nguyên tiếng Anh.
+- Mục **"Điểm cần ghi nhớ"**: 3–5 nguyên tắc ngắn gọn, áp dụng được.
 
 ## Điều cấm
 
-- **Không bịa trải nghiệm.** Claude chỉ được kể chuyện cá nhân ("hôm qua tôi…", "lần ở viện X…") khi **anh Dam cung cấp câu chuyện đó** trong ý tưởng bài. Nếu không có, dùng *tình huống điển hình* ("Giả sử bạn…", "Một tình huống hay gặp…").
+- **Không bịa trải nghiệm.** Claude chỉ được kể chuyện cá nhân ("hôm qua tôi…", "lần ở viện X…") khi **anh Dam cung cấp câu chuyện đó** trong ý tưởng bài. Bài viết mặc định không kể chuyện cá nhân; dùng *tình huống điển hình* ("Một tình huống thường gặp là…").
 - Không bịa số liệu, trích dẫn, số hiệu văn bản. Không chắc → không viết, hoặc ghi rõ "cần kiểm tra".
 - Không đưa dữ liệu bệnh nhân, dữ liệu khách hàng/bệnh viện, thông tin nội bộ công ty.
 - Không chép nguyên văn từ sách, bài báo, tài liệu hãng. Diễn đạt lại bằng lời mình và dẫn nguồn.
 
-## Mạch bài (mục Kiến thức, Lộ trình)
+## Cấu trúc bài (mục Kiến thức, Lộ trình)
 
-Không bắt buộc tiêu đề cố định, nhưng bài nên đi theo mạch:
-
-1. **Cảnh/tình huống mở đầu** (không có tiêu đề).
-2. **Chuyện gì đang xảy ra?** — giải thích bản chất, có hình ảnh so sánh.
-3. **Vậy phải làm sao?** — cách làm thực tế.
-4. **Những chỗ hay hiểu sai** — phản biện các cách làm/quan niệm phổ biến.
-5. **Bài học:** — 2–4 ý ngắn.
-6. **Nguồn tham khảo**.
+1. **Đặt vấn đề** — hiện tượng thực tế và câu hỏi của bài.
+2. **Cơ sở lý thuyết** — định nghĩa, cơ chế, công thức nếu có.
+3. **Áp dụng trong thực hành** — quy trình, yêu cầu kỹ thuật.
+4. **Các sai lầm thường gặp** — phân tích nguyên nhân.
+5. **Điểm cần ghi nhớ** — 3–5 nguyên tắc.
+6. **Tài liệu tham khảo** — định dạng: Tác giả. Tên bài. Tạp chí. Năm;Tập:Trang.
 
 ## Khung bài mục Pháp lý
 

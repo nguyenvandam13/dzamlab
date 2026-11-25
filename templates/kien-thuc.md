@@ -6,21 +6,23 @@ trang-thai: 🌱 mầm
 cap-nhat: YYYY-MM-DD
 ---
 
-## Vấn đề
+## 1. Đặt vấn đề
 
-## Hiểu bản chất
+## 2. Cơ sở lý thuyết
 
-## Làm thế nào
+## 3. Áp dụng trong thực hành
 
-## Sai lầm hay gặp
+## 4. Các sai lầm thường gặp
 
-## Tóm tắt
+## 5. Điểm cần ghi nhớ
 
 1.
 2.
 3.
 
-## Nguồn tham khảo
+## Tài liệu tham khảo
+
+1.
 
 ---
 

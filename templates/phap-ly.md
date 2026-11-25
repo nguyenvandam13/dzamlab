@@ -23,7 +23,7 @@ cap-nhat: YYYY-MM-DD
 
 ## Điều này có nghĩa gì với người làm thực tế
 
-## Nguồn tham khảo
+## Tài liệu tham khảo
 
 ---
 

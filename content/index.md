@@ -12,7 +12,7 @@ Mỗi ghi chú có một trạng thái: 🌱 **mầm** (mới ghi), 🌿 **đang
 - 📘 [[kien-thuc/index|Kiến thức]] — ghi chú theo chủ đề, sửa dần theo thời gian
 - 🧭 [[lo-trinh/index|Lộ trình học]] — chuỗi bài có thứ tự, học từ đầu
 - ⚖️ [[phap-ly/index|Pháp lý]] — theo dõi văn bản về trang thiết bị y tế
-- 📰 [[diem-tin/index|Điểm tin]] — tin ngành mỗi sáng, do AI tổng hợp
+- 📰 [[diem-tin/index|Điểm tin]] — bản tin tổng hợp mỗi sáng, do AI biên soạn
 
 ## Mới cập nhật
 

@@ -1,0 +1,10 @@
+{
+  "newLinkFormat": "shortest",
+  "useMarkdownLinks": false,
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "current",
+  "attachmentFolderPath": "assets",
+  "propertiesInDocument": "visible",
+  "showUnsupportedFiles": false,
+  "userIgnoreFilters": ["templates/"]
+}

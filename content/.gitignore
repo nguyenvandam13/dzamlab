@@ -1,0 +1,9 @@
+# Ghi chú cá nhân: chỉ nằm trên máy, không đưa lên GitHub, không xuất bản
+private/
+
+# Trạng thái giao diện Obsidian riêng của từng máy
+.obsidian/workspace*.json
+.obsidian/cache
+.obsidian/plugins/
+.obsidian/community-plugins.json
+.trash/

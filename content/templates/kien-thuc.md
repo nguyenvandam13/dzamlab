@@ -3,7 +3,7 @@ title:
 description:
 tags: []
 trang-thai: 🌱 mầm
-cap-nhat: YYYY-MM-DD
+cap-nhat: {{date}}
 ---
 
 ## 1. Đặt vấn đề

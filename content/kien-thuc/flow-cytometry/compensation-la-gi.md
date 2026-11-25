@@ -8,7 +8,7 @@ cap-nhat: 2026-11-25
 
 ## 1. Đặt vấn đề
 
-Trong phân tích tế bào dòng chảy đa màu, một hiện tượng thường gặp là quần thể tế bào âm tính với một dấu ấn lại hiển thị tín hiệu dương tính giả ở kênh tương ứng. Chẳng hạn, khi nhuộm đồng thời CD3-FITC và CD4-PE, quần thể tế bào T CD4⁻ có thể phân bố theo một đường chéo hướng lên trên trục PE thay vì nằm gọn trong vùng âm tính.
+Trong [[kien-thuc/flow-cytometry/index|phân tích tế bào dòng chảy]] (flow cytometry) đa màu, một hiện tượng thường gặp là quần thể tế bào âm tính với một dấu ấn lại hiển thị tín hiệu dương tính giả ở kênh tương ứng. Chẳng hạn, khi nhuộm đồng thời CD3-FITC và CD4-PE, quần thể tế bào T CD4⁻ có thể phân bố theo một đường chéo hướng lên trên trục PE thay vì nằm gọn trong vùng âm tính.
 
 Hiện tượng này không xuất phát từ sai sót của kháng thể hay mẫu bệnh phẩm, mà là hệ quả của **tràn phổ huỳnh quang** (spectral spillover) chưa được hiệu chỉnh thích hợp. Bài viết trình bày cơ chế của hiện tượng, nguyên lý của phương pháp bù trừ (compensation) và các yêu cầu kỹ thuật để thực hiện bù trừ chính xác.
 

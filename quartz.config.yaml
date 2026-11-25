@@ -16,29 +16,29 @@ configuration:
     cdnCaching: true
     typography:
       header: Be Vietnam Pro
-      body: Be Vietnam Pro
+      body: Literata
       code: IBM Plex Mono
     colors:
       lightMode:
-        light: "#faf8f8"
-        lightgray: "#e5e5e5"
-        gray: "#b8b8b8"
-        darkgray: "#4e4e4e"
-        dark: "#2b2b2b"
-        secondary: "#0f5c6e"
-        tertiary: "#c0573e"
-        highlight: rgba(143, 159, 169, 0.15)
-        textHighlight: "#fff23688"
+        light: "#fbfaf7"
+        lightgray: "#e8e4dc"
+        gray: "#8a8479"
+        darkgray: "#36332e"
+        dark: "#1d1b18"
+        secondary: "#0b6b66"
+        tertiary: "#c4622d"
+        highlight: rgba(11, 107, 102, 0.07)
+        textHighlight: "#ffe0828c"
       darkMode:
-        light: "#161618"
-        lightgray: "#393639"
-        gray: "#646464"
-        darkgray: "#d4d4d4"
-        dark: "#ebebec"
-        secondary: "#7b97aa"
-        tertiary: "#c0573e"
-        highlight: rgba(143, 159, 169, 0.15)
-        textHighlight: "#b3aa0288"
+        light: "#161719"
+        lightgray: "#2b2d31"
+        gray: "#8b8d93"
+        darkgray: "#d6d3cc"
+        dark: "#f2efe9"
+        secondary: "#5ec2b7"
+        tertiary: "#f0a06b"
+        highlight: rgba(94, 194, 183, 0.1)
+        textHighlight: "#b3aa0266"
   links:
     markdownLinkResolution: shortest
   contentIndex:
@@ -174,6 +174,9 @@ plugins:
       group: toolbar
   - source: "@quartz-community/breadcrumbs"
     enabled: true
+    options:
+      rootName: Trang chủ
+      spacerSymbol: "›"
     layout:
       position: beforeBody
       priority: 5

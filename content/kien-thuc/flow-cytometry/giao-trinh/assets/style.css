@@ -1,0 +1,306 @@
+/* Sinh tự động từ assets/style.css của giáo trình gốc (tools/assets.py). */
+:root{
+  
+  --bg:#f5f6f7; --surface:#ffffff; --ink:#17212b; --muted:#56636f; --line:#d8dde2;
+  --accent:#0e6b70; --accent-soft:#e0efef;
+  --v405:#6a3fc4; --b488:#1b6fd1; --r638:#c3362b;
+  --ok:#2c7a37; --warn:#9c6300; --bad:#b3261e;
+  --plot-bg:#fbfcfd; --plot-grid:#e5e9ed;
+  --f-display:"Literata", Georgia, "Times New Roman", serif;
+  --f-body:"IBM Plex Sans", "Segoe UI", Roboto, Arial, sans-serif;
+  --f-mono:"IBM Plex Mono", Consolas, "Courier New", monospace;
+  color-scheme: light;
+--bg:#faf8f8; --surface:#ffffff; --ink:#2b2b2b; --muted:#5f5f5f; --line:#e5e5e5;--accent:#0f5c6e; --accent-soft:#e1eef0;--f-display:"Be Vietnam Pro", system-ui, sans-serif; --f-body:"Be Vietnam Pro", system-ui, sans-serif;--f-mono:"IBM Plex Mono", Consolas, monospace;}
+:root[saved-theme="dark"]{
+  --bg:#10161c; --surface:#172029; --ink:#e3e8ed; --muted:#9ba8b4; --line:#2b3743;
+  --accent:#4fb8bd; --accent-soft:#183238;
+  --v405:#a98bf0; --b488:#6aa8f2; --r638:#f0857b;
+  --ok:#6cc479; --warn:#e6b04a; --bad:#f08a80;
+  --plot-bg:#121a21; --plot-grid:#24303a;
+  color-scheme: dark;
+--bg:#161618; --surface:#1f1f22; --ink:#ebebec; --muted:#a5a5a8; --line:#393639;--accent:#7bb3c4; --accent-soft:#1f3238;}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .eyebrow{font-family:var(--f-mono);font-size:.76rem;letter-spacing:.06em;text-transform:uppercase;color:var(--accent)}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .prose{max-width:78ch}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .lead{font-size:1.06rem;color:var(--muted);max-width:72ch}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] ul.tight,body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] ol.tight{margin:6px 0 12px;padding-left:22px;max-width:78ch}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] ul.tight li,body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] ol.tight li{margin:3px 0}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] code,body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .mono{font-family:var(--f-mono);font-size:.87em}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] kbd{font-family:var(--f-mono);font-size:.82em;border:1px solid var(--line);border-bottom-width:2px;border-radius:4px;padding:0 4px;background:var(--surface)}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .tbl-wrap{overflow-x:auto;margin:12px 0 18px;border:1px solid var(--line);border-radius:8px;background:var(--surface)}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] table{border-collapse:collapse;width:100%;font-size:.88rem;font-variant-numeric:tabular-nums}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] th,body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] td{padding:7px 10px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] th{font-weight:600;background:var(--accent-soft)}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] tr:last-child td{border-bottom:none}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] td.c,body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] th.c{text-align:center}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .laser{display:inline-block;padding:1px 8px;border-radius:999px;font-family:var(--f-mono);font-size:.76rem;color:#fff;white-space:nowrap}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .l405{background:var(--v405)}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .l488{background:var(--b488)}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .l638{background:var(--r638)}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .callout{border-left:4px solid var(--accent);background:var(--surface);padding:12px 16px;border-radius:0 8px 8px 0;margin:14px 0;max-width:78ch}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .callout.warn{border-left-color:var(--warn)}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .callout.bad{border-left-color:var(--bad)}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .callout.doc{border-left-color:var(--v405)}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .callout > b.t{display:block;margin-bottom:3px}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .callout p:last-child,body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .callout ul:last-child{margin-bottom:0}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .src{font-size:.8rem;color:var(--muted)}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:14px;margin:14px 0}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .grid3{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin:14px 0}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .card{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:14px 16px}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .card h4{margin:0 0 6px}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .card p{margin:0 0 8px}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .card p:last-child,body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .card ul:last-child{margin-bottom:0}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .steps{counter-reset:s;list-style:none;padding:0;margin:10px 0 16px;max-width:78ch;display:grid;gap:8px}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .steps > li{counter-increment:s;display:grid;grid-template-columns:32px 1fr;gap:10px;align-items:start}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .steps > li::before{content:counter(s);font-family:var(--f-mono);font-size:.82rem;width:26px;height:26px;border-radius:50%;background:var(--accent);color:#fff;display:grid;place-items:center;margin-top:1px}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .lab{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px;margin:16px 0}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .labhead{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;align-items:baseline;margin-bottom:10px}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .labhead h4{margin:0}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .labgrid{display:grid;grid-template-columns:minmax(0,1fr) 270px;gap:16px}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .controls{display:grid;gap:11px;align-content:start}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .ctl label{display:flex;justify-content:space-between;font-size:.86rem;gap:8px}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .ctl label output{font-family:var(--f-mono);color:var(--accent)}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] input[type=range]{width:100%;accent-color:var(--accent)}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] input[type=number],body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] select{width:100%;padding:6px 8px;border:1px solid var(--line);border-radius:6px;background:var(--bg);color:var(--ink);font-family:var(--f-mono);font-size:.9rem}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] canvas{width:100%;height:auto;display:block;background:var(--plot-bg);border:1px solid var(--line);border-radius:8px}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] figure.plot{margin:12px 0;max-width:560px}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] figure.fig{margin:16px 0 20px;max-width:820px}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] figure.fig .svgbox svg{max-width:100%;height:auto}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] figure.fig figcaption,body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] figure.plot figcaption{font-size:.82rem;color:var(--muted);margin-top:6px;max-width:78ch}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] figure.plot figcaption{font-size:.8rem;color:var(--muted);margin-top:4px}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .plots{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px;margin:12px 0}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .plots figure.plot{max-width:none;margin:0}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .pill{display:inline-block;padding:2px 10px;border-radius:999px;font-size:.8rem;font-weight:600;border:1px solid currentColor}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .pill.ok{color:var(--ok)}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .pill.warn{color:var(--warn)}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .pill.bad{color:var(--bad)}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .stat{font-family:var(--f-mono);font-size:.84rem;color:var(--muted)}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .tag{font-family:var(--f-mono);font-size:.72rem;padding:2px 8px;border-radius:4px;background:var(--accent-soft);color:var(--accent);white-space:nowrap}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .tag.sim{background:transparent;border:1px dashed var(--muted);color:var(--muted)}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] details.case{background:var(--surface);border:1px solid var(--line);border-radius:12px;margin:14px 0;overflow:hidden}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] details.case > summary{cursor:pointer;padding:13px 16px;display:grid;grid-template-columns:auto 1fr auto;gap:12px;align-items:center;list-style:none}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] details.case > summary::-webkit-details-marker{display:none}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] details.case > summary .t{font-weight:600}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] details.case > summary .chev{font-family:var(--f-mono);color:var(--muted);transition:transform .15s}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] details.case[open] > summary .chev{transform:rotate(90deg)}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] details.case .body{padding:4px 18px 18px;border-top:1px solid var(--line)}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] details.ans{margin:10px 0;border:1px dashed var(--line);border-radius:8px;padding:8px 12px;background:var(--bg)}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] details.ans > summary{cursor:pointer;font-weight:600;color:var(--accent)}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .casegrid{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:16px;margin-top:12px}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .quiz .q{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:13px 16px;margin:10px 0;max-width:84ch}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .quiz .q p{margin:0 0 8px;font-weight:500}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .quiz .opts{display:grid;gap:6px}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .quiz button.opt{text-align:left;font:inherit;font-size:.92rem;padding:8px 12px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--ink);cursor:pointer}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .quiz button.opt:hover{border-color:var(--accent)}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .quiz button.opt.right{border-color:var(--ok);background:color-mix(in srgb,var(--ok) 12%,var(--bg))}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .quiz button.opt.wrong{border-color:var(--bad);background:color-mix(in srgb,var(--bad) 10%,var(--bg))}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .quiz .fb{font-size:.87rem;color:var(--muted);margin-top:8px;display:none}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .quiz .fb.show{display:block}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .score{font-family:var(--f-mono)}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .flow{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:12px 0;font-size:.86rem}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .flow .node{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:6px 10px}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .flow .node b{display:block;font-size:.74rem;color:var(--muted);font-weight:500;font-family:var(--f-mono)}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .flow .arr{color:var(--muted);font-family:var(--f-mono)}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .formula{font-family:var(--f-mono);background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:10px 14px;margin:10px 0;max-width:78ch;overflow-x:auto;font-size:.88rem}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .pager{display:flex;justify-content:space-between;gap:12px;margin-top:48px;padding-top:18px;border-top:1px solid var(--line);flex-wrap:wrap}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .pager a{display:block;padding:10px 14px;border:1px solid var(--line);border-radius:8px;background:var(--surface);text-decoration:none;color:var(--ink);max-width:48%}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .pager a small{display:block;color:var(--muted);font-family:var(--f-mono);font-size:.74rem}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .chapcards{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:12px;margin:12px 0 22px}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .chapcards a{display:block;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:12px 14px;text-decoration:none;color:var(--ink)}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .chapcards a:hover{border-color:var(--accent)}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .chapcards a b{display:block;font-family:var(--f-display);font-size:1rem;margin:2px 0 4px}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .chapcards a span{font-size:.84rem;color:var(--muted)}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .chapcards a small{font-family:var(--f-mono);color:var(--accent);font-size:.74rem}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .refs li{margin:5px 0;font-size:.88rem}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] dl.gloss{display:grid;grid-template-columns:minmax(120px,200px) 1fr;gap:6px 16px;max-width:90ch}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] dl.gloss dt{font-weight:600;font-family:var(--f-mono);font-size:.88rem}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] dl.gloss dd{margin:0;font-size:.92rem}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .search{width:100%;max-width:420px;padding:8px 10px;border:1px solid var(--line);border-radius:8px;background:var(--surface);color:var(--ink);font:inherit;margin:8px 0 12px}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] footer{margin-top:40px;color:var(--muted);font-size:.8rem;max-width:78ch}
+@media (max-width: 920px){body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .labgrid,body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .casegrid{grid-template-columns:1fr}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] dl.gloss{grid-template-columns:1fr}}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .learn{--c:var(--accent);background:var(--surface);border:1px solid var(--line);border-left:4px solid var(--c);border-radius:10px;padding:12px 16px;margin:14px 0;max-width:80ch}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .learn > .lh{display:flex;flex-wrap:wrap;gap:8px;align-items:center;font-weight:700;margin-bottom:6px}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .learn > .lh::before{content:attr(data-k);font-family:var(--f-mono);font-size:.7rem;font-weight:600;letter-spacing:.02em;text-transform:uppercase;padding:2px 9px;border-radius:999px;color:var(--c);border:1px solid var(--c);background:color-mix(in srgb,var(--c) 10%,transparent)}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .learn p{margin:0 0 8px}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .learn p:last-child,body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .learn ul:last-child,body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .learn ol:last-child,body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .learn .tbl-wrap:last-child{margin-bottom:0}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .learn ul,body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .learn ol{margin:4px 0 8px;padding-left:22px}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .learn li{margin:3px 0}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .learn .tbl-wrap{margin:8px 0}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .learn.hieu{--c:var(--accent)}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .learn.denham{--c:var(--warn)}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .learn.vidu{--c:var(--b488)}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .learn.thuchanh{--c:var(--ok)}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .learn.khach{--c:var(--v405)}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .learn.tukt{--c:var(--r638)}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .learn details.ans{margin:6px 0}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .learn .formula{margin:8px 0}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] table.walk tr.r{cursor:pointer}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] table.walk tr.r td:first-child::before{content:"▸ ";color:var(--accent);font-family:var(--f-mono)}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] table.walk tr.r.on td:first-child::before{content:"▾ "}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] table.walk tr.r:hover td{background:color-mix(in srgb,var(--accent) 6%,transparent)}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] table.walk tr.x{display:none}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] table.walk tr.x.open{display:table-row}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] table.walk tr.x td{background:var(--surface);font-size:.9rem;line-height:1.55;padding:10px 14px;border-left:3px solid var(--accent)}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] table.walk td.num{font-family:var(--f-mono);text-align:right;white-space:nowrap}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .lab select,body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .lab input[type=number]{font:inherit;padding:5px 8px;border:1px solid var(--line);border-radius:6px;background:var(--bg);color:var(--ink)}
+@media print{body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] table.walk tr.x{display:table-row}}
+@media print{body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .learn{break-inside:avoid;border-left-width:3px}}
+@media print{body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .pager{display:none !important}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] details.case,body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] details.ans{border:1px solid #bbb}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] details > .body{display:block}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .tbl-wrap,body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .card,body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .callout,body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] figure{break-inside:avoid}}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .kyhieu{background:var(--surface);border:1px solid var(--line);border-left:4px solid var(--b488);border-radius:10px;padding:10px 14px 12px;margin:12px 0;max-width:86ch}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .kyhieu .kh-t{font-family:var(--f-mono);font-size:.72rem;letter-spacing:.05em;text-transform:uppercase;color:var(--b488);font-weight:600;margin-bottom:6px}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .kyhieu .tbl-wrap{margin:6px 0 0}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .kyhieu td.sym{font-family:var(--f-mono);font-weight:600;white-space:nowrap;color:var(--ink)}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .kyhieu ul{margin:2px 0 4px;padding-left:20px}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .kyhieu li{margin:3px 0;font-size:.93rem}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .kyhieu p{margin:6px 0 0;font-size:.93rem}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .kyhieu.mini{padding:8px 12px 10px}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] p.docthanh{max-width:78ch;margin:4px 0 14px;font-size:.94rem;color:var(--muted)}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] p.docthanh b{color:var(--ink)}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] details.glossbox{background:var(--surface);border:1px solid var(--line);border-left:4px solid var(--accent);border-radius:10px;margin:6px 0 22px;max-width:100ch}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] details.glossbox > summary{cursor:pointer;list-style:none;padding:12px 16px;display:flex;flex-wrap:wrap;gap:8px 12px;align-items:baseline}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] details.glossbox > summary::-webkit-details-marker{display:none}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] details.glossbox > summary .gt{font-weight:700}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] details.glossbox > summary .gn{font-family:var(--f-mono);font-size:.78rem;color:var(--muted)}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] details.glossbox > summary .chev{margin-left:auto;font-family:var(--f-mono);color:var(--muted);transition:transform .15s}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] details.glossbox[open] > summary .chev{transform:rotate(90deg)}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] details.glossbox .gb{padding:0 16px 14px;border-top:1px solid var(--line)}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] details.glossbox .gb > p{font-size:.88rem;color:var(--muted);margin:10px 0 6px}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] details.glossbox h4.gg{font-family:var(--f-mono);font-size:.74rem;letter-spacing:.05em;text-transform:uppercase;color:var(--accent);margin:14px 0 4px;font-weight:600}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] table.gtab td:first-child{font-weight:600;min-width:9em;max-width:16em}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] table.gtab th:last-child{white-space:nowrap}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] table.gtab td.full{color:var(--muted);font-size:.84rem}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] table.gtab td.at{white-space:nowrap;font-size:.8rem;width:1%}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] table.gtab tr:target td{background:color-mix(in srgb,var(--warn) 18%,transparent)}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] table.gtab tr.hl td{background:color-mix(in srgb,var(--warn) 18%,transparent)}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .chips{display:flex;flex-wrap:wrap;gap:4px 6px;margin:6px 0 2px}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .chips a{font-family:var(--f-mono);font-size:.76rem;padding:1px 8px;border:1px solid var(--line);border-radius:999px;text-decoration:none;color:var(--ink);background:var(--bg)}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .chips a:hover{border-color:var(--accent);color:var(--accent)}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] details.glossbox .search{margin:10px 0 4px}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .gsearch{position:relative;margin:0 0 12px}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .gsearch input{width:100%;padding:8px 10px 8px 30px;border:1px solid var(--line);border-radius:8px;background:var(--surface) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='%2356636f' stroke-width='2.4'%3E%3Ccircle cx='11' cy='11' r='7'/%3E%3Cpath d='M20 20l-3.5-3.5'/%3E%3C/svg%3E") no-repeat 9px center;color:var(--ink);font:inherit;font-size:.9rem}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .gsearch .hint{font-size:.72rem;color:var(--muted);margin-top:3px}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] #gsPanel{position:fixed;z-index:60;top:16px;left:50%;transform:translateX(-50%);width:min(760px,94vw);max-height:min(78vh,760px);display:none;flex-direction:column;background:var(--surface);border:1px solid var(--line);border-radius:12px;box-shadow:0 18px 50px rgba(0,0,0,.22)}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] #gsPanel.open{display:flex}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] #gsPanel .gs-head{display:flex;gap:8px;align-items:center;padding:12px 14px;border-bottom:1px solid var(--line)}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] #gsPanel .gs-head input{flex:1;padding:9px 12px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--ink);font:inherit}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] #gsPanel .gs-head button{border:1px solid var(--line);background:var(--bg);color:var(--muted);border-radius:8px;padding:8px 10px;cursor:pointer;font:inherit;font-size:.85rem}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] #gsPanel .gs-body{overflow-y:auto;padding:6px 14px 14px}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] #gsPanel .gs-sec{font-family:var(--f-mono);font-size:.72rem;letter-spacing:.05em;text-transform:uppercase;color:var(--muted);margin:12px 0 4px}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] #gsPanel a.gs-r{display:block;padding:8px 10px;border-radius:8px;text-decoration:none;color:var(--ink);border:1px solid transparent}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] #gsPanel a.gs-r:hover,body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] #gsPanel a.gs-r.sel{background:var(--accent-soft);border-color:var(--line)}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] #gsPanel a.gs-r .t{font-weight:600}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] #gsPanel a.gs-r .f{color:var(--muted);font-size:.84rem;margin-left:6px}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] #gsPanel a.gs-r .d{font-size:.88rem;margin-top:2px}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] #gsPanel a.gs-r .w{font-family:var(--f-mono);font-size:.72rem;color:var(--accent);margin-top:3px}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] #gsPanel mark{background:color-mix(in srgb,var(--warn) 30%,transparent);color:inherit;border-radius:2px}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] #gsPanel .gs-empty{color:var(--muted);font-size:.9rem;padding:10px 4px}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] #gsBack{position:fixed;inset:0;z-index:59;background:rgba(0,0,0,.25);display:none}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] #gsBack.open{display:block}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] span.gterm{border-bottom:1px dotted var(--muted);cursor:help}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] #gtip{position:absolute;z-index:70;max-width:360px;background:var(--surface);color:var(--ink);border:1px solid var(--line);border-radius:10px;box-shadow:0 10px 30px rgba(0,0,0,.18);padding:10px 12px;font-size:.86rem;line-height:1.45;display:none}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] #gtip .t{font-weight:700;font-family:var(--f-mono)}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] #gtip .f{color:var(--muted);font-size:.8rem;margin:1px 0 4px}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] #gtip a{font-family:var(--f-mono);font-size:.74rem}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] #gindexTable td.at{white-space:nowrap;font-size:.8rem}
+@media print{body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .gsearch,body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] #gsPanel,body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] #gsBack,body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] #gtip{display:none !important}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] span.gterm{border-bottom:none}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] details.glossbox{break-inside:auto}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .kyhieu{break-inside:avoid}}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] figure.illus{margin:18px 0 24px;max-width:900px;break-inside:avoid}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] figure.illus svg{width:100%;height:auto;display:block;color:var(--ink);overflow:visible}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] figure.illus figcaption{font-size:.82rem;color:var(--muted);margin-top:6px;max-width:80ch}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .illus svg text{font-family:var(--f-body);fill:var(--ink);font-size:13px}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .illus svg .tb{font-weight:600;font-size:13.5px}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .illus svg .h{font-family:var(--f-display);font-weight:700;font-size:16px}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .illus svg .cs,body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .illus svg .cl+.cs{font-size:11.5px;fill:var(--muted)}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .illus svg .cl{font-size:13.5px;font-weight:600}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .illus svg .mono{font-family:var(--f-mono);font-size:11px;fill:var(--muted)}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .illus svg .wt{fill:#fff;font-weight:600;font-size:12px}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .illus svg .dl{font-size:10.5px;font-weight:600;fill:#fff}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .illus svg .dk{font-size:10.5px;font-weight:600;fill:var(--ink)}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .illus .bx{fill:var(--surface);stroke:var(--line);stroke-width:1.3}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .illus .ln{stroke:var(--muted);stroke-width:1.5;fill:none}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .illus .memb{fill:var(--warn);fill-opacity:.12}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .illus .f-ac{fill:var(--accent)}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .illus .f-b{fill:var(--b488)}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .illus .f-v{fill:var(--v405)}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .illus .f-r{fill:var(--r638)}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .illus .f-ok{fill:var(--ok)}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .illus .f-w{fill:var(--warn)}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .illus .f-mu{fill:var(--muted)}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .illus .f-sf{fill:var(--surface)}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .illus .f-bg{fill:var(--bg)}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .illus .f-soft{fill:var(--accent-soft)}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .illus .f-ink{fill:var(--ink)}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .illus .f-bad{fill:var(--bad)}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .illus .s-ac{stroke:var(--accent);fill:none}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .illus .s-b{stroke:var(--b488);fill:none}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .illus .s-v{stroke:var(--v405);fill:none}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .illus .s-r{stroke:var(--r638);fill:none}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .illus .s-w{stroke:var(--warn);fill:none}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .illus .s-ok{stroke:var(--ok);fill:none}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .illus .s-ln{stroke:var(--line);fill:none}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .illus .s-ink{stroke:var(--ink)}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .illus .s-mu{stroke:var(--muted);fill:none}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .illus .s-bad{stroke:var(--bad);fill:none}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .illus .sd{stroke-dasharray:5 4}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .qa{max-width:78ch;margin:14px 0}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .qa > .q{font-family:var(--f-display);font-weight:700;font-size:1.08rem;margin:18px 0 6px;padding-left:34px;position:relative}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .qa > .q::before{content:"Hỏi";position:absolute;left:0;top:2px;font-family:var(--f-mono);font-size:.68rem;font-weight:500;background:var(--accent);color:#fff;border-radius:4px;padding:1px 5px}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .qa > .a{padding-left:34px;position:relative}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .qa > .a::before{content:"Đáp";position:absolute;left:0;top:3px;font-family:var(--f-mono);font-size:.68rem;background:var(--accent-soft);color:var(--accent);border-radius:4px;padding:1px 5px}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .qa > .a p{margin:0 0 10px}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .prep{border:1px solid var(--line);border-left:4px solid var(--accent);background:var(--surface);border-radius:8px;padding:12px 16px;margin:16px 0;max-width:78ch}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .prep b.t{display:block;font-family:var(--f-display);margin-bottom:4px}
+@media print{body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] figure.illus{break-inside:avoid}}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .mkbar{display:flex;gap:12px;align-items:center;margin:10px 0 8px;flex-wrap:wrap}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .mkbar input{flex:1;min-width:240px;padding:9px 12px;border:1px solid var(--line);border-radius:8px;background:var(--surface);color:var(--ink);font:inherit}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .mkbar .mono{font-family:var(--f-mono);font-size:.78rem;color:var(--muted)}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .mkchips{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:10px}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .mkchip{border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:999px;padding:4px 11px;font:inherit;font-size:.8rem;cursor:pointer}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .mkchip.on{background:var(--accent);border-color:var(--accent);color:#fff}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .mktab table{font-size:.84rem}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .mktab td{vertical-align:top}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .mktab td.mk b{display:block;white-space:nowrap}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .mktab .alt{color:var(--muted)}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .mktab td.tube{font-family:var(--f-mono);font-size:.76rem;white-space:nowrap}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .mktab tr.hit td{background:var(--accent-soft)}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .loc{display:inline-block;font-family:var(--f-mono);font-size:.66rem;border-radius:4px;padding:0 5px;margin:3px 3px 0 0;border:1px solid currentColor}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .loc-m{color:var(--b488)}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .loc-gpi{color:var(--ok)}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .loc-c,body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .loc-hat{color:var(--r638)}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .loc-n{color:var(--v405)}
+@media print{body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .mkbar,body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .mkchips{display:none}}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .realbox{border:1px solid var(--line);border-radius:10px;padding:14px 16px;margin:18px 0 22px;background:var(--surface)}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .realbox > h3{margin:0 0 4px;font-family:var(--f-display)}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .realbox > p.rb-note{font-size:.8rem;color:var(--muted);margin:0 0 10px}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .photos{display:grid;gap:16px;margin:10px 0}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .photos.c2{grid-template-columns:repeat(2,minmax(0,1fr))}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .photos.c3{grid-template-columns:repeat(3,minmax(0,1fr))}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .photos.c1{grid-template-columns:1fr}
+@media (max-width:820px){body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .photos.c2,body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .photos.c3{grid-template-columns:1fr}}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] figure.photo{margin:0;break-inside:avoid}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] figure.photo.wide{grid-column:1/-1}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] figure.photo a.ph{display:block;background:#111;border-radius:8px;overflow:hidden}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] figure.photo img{display:block;width:100%;max-height:440px;object-fit:contain;background:#111}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] figure.photo.wide img{max-height:520px}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] figure.photo figcaption{font-size:.86rem;line-height:1.5;margin-top:6px}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] figure.photo .pt{display:block;font-family:var(--f-display);font-size:.95rem;margin-bottom:2px}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] figure.photo ol.look{margin:6px 0 4px 1.1em;padding:0}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] figure.photo ol.look li{margin:2px 0}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] figure.photo .toflow{margin:4px 0;padding:6px 8px;background:var(--accent-soft);border-radius:6px}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] figure.photo .credit{display:block;font-size:.72rem;color:var(--muted);margin-top:4px}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] figure.photo.off a.ph{min-height:120px;display:flex;align-items:center;justify-content:center}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] figure.photo.off a.ph img{display:none}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] figure.photo.off a.ph::after{content:"Không tải được ảnh (cần kết nối Internet). Bấm để mở trên Wikimedia Commons.";color:#ddd;font-size:.8rem;padding:16px;text-align:center}
+@media print{body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] figure.photo img{max-height:300px}}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .realbox h4.rb-h{margin:18px 0 6px;font-family:var(--f-display)}
+/* Bổ sung cho Quartz */
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] .ftb-top{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px 16px;margin:0 0 6px}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] #ftb-search .gsearch{min-width:260px}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] #ftb-search .gsearch input{width:100%;padding:6px 10px;border:1px solid var(--line);border-radius:6px;background:var(--surface);color:var(--ink);font:inherit;font-size:.9rem}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] #ftb-search .gsearch .hint{font-size:.72rem;color:var(--muted);margin-top:3px}
+body[data-slug^="kien-thuc/flow-cytometry/giao-trinh/"] article > p.lead{font-size:1.06rem;color:var(--muted)}

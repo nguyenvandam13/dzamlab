@@ -16,4 +16,5 @@ Mỗi ghi chú có một trạng thái: 🌱 **mầm** (mới ghi), 🌿 **đang
 
 ## Mới cập nhật
 
+- [[kien-thuc/flow-cytometry/giao-trinh/index|Giáo trình Flow cytometry lâm sàng trên Navios EX và Kaluza C]] (29 chương)
 - [[kien-thuc/flow-cytometry/compensation-la-gi|Bù trừ huỳnh quang (compensation) trong flow cytometry]]

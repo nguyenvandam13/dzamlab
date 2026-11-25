@@ -1,6 +1,6 @@
 ---
 title: DzamLab
-description: Ghi chép kiến thức xét nghiệm, flow cytometry, pháp lý trang thiết bị y tế .
+description: Ghi chép kiến thức xét nghiệm, flow cytometry, pháp lý trang thiết bị y tế.
 ---
 
 DzamLab là nơi hệ thống hoá kiến thức trong lĩnh vực xét nghiệm y học: từ nguyên lý máy móc, kỹ thuật phân tích, đến các quy định pháp lý liên quan đến thực hành.
